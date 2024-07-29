@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sarabun", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li a{
+    color: rgb(185, 183, 183);
+}
+header{
+    background: #494949;
+    color: rgb(185, 183, 183);
+    text-align: center;
+    padding: 14px;
+    
+}
+header nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+ ul li a:hover{
+    color: aliceblue;
+}
+.sub-nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+span{
+    color: blue;
+}
+.hero{
+    text-align: center;
+    padding-top: 40px;
+}
+.hero h1{
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.link{
+    margin-top: 12px;
+}
+.link a{
+    margin: 10px;
+    color: blue;
+}
+.link a:hover{
+    font-weight: 700;
+}
+.second{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    text-align: center;
+    padding-top: 40px;
+}
+.second h1{
+    margin-bottom: 6px;
+    font-weight: bolder;
+}
+.second h5{
+    margin-bottom: 15px;
+}
+.second img{
+    width: 700px;
+}
+.main{
+    display: flex;
+    margin: 10px;
+}
+.box{
+    width: 49%;
+    background-color: black;
+    color: white;
+    margin: 6px;
+    text-align: center;
+    padding-top: 16px;
+}
+.box img{
+    width: 600px;
+}
+.main2{
+    display: flex;
+    margin: 10px;  
+}
+.box2{
+    text-align: center;
+    padding-top: 12px;
+    margin: 6px;
+}
+.box2 img{
+    width: 650px;
+}
+.box3{
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgb(175, 197, 251);
+    margin: 6px;
+    height: 435px;
+}
+.box3 img{
+    width: 650px;
+}
+.iPad{
+    background-color: rgb(241, 240, 240);
+    display: flex;
+
+}
+.first{
+    width: 50%;
+}
+.iPad-text{
+    padding-top: 12%;
+    text-align: center;
+    width: 50%;
+}
+.iPad-text h1{
+    font-weight: bolder;
+}
+.btn{
+    padding-top: 12px;
+}
+.btn button{
+    border: 2px solid black;
+    padding: 14px;
+    border-radius: 30px;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+}
+.main-footer{
+    background-color: black;
+    color: #828181;
+    height:     550px;
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    
+}
+.footer ul li{
+    list-style: none;
+    padding: 5px;
+}
+.footer ul li:hover{
+    color: white;
+}
+footer ul li h4{
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600;
+}
